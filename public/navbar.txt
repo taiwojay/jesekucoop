@@ -1,0 +1,81 @@
+html
+ {/* 
+    <header>
+    <div className='logo'>Jeseku</div>
+    <FontAwesomeIcon icon={faCoffee} className='menu-toggle'/>
+    <ul class='nav'>
+       <li><a href='#'>Home</a></li>
+       <li><a href='#'>Services</a></li>
+       <li><a href='#'>Sign Up</a></li>
+       <li>
+         <a href='#'>
+         User
+         <FontAwesomeIcon icon={faChevronDown} />
+         </a>
+         <ul>
+           <li><a href='#'>Home</a></li>
+           <li><a href='#'>Services</a></li>
+          </ul>
+       </li>
+    </ul>
+    </header>
+
+     */}
+css
+/*nav*/
+header{
+  background-color: var(--deep-sky-blue);
+  height: 50px;
+}
+header * {
+  color: white;
+  font-family: var(--main-font);
+}
+header .logo{
+  float: left;
+}
+header ul{
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+header ul li{
+  float: left;
+  position: relative;
+}
+/*dropdown*/
+header ul li ul{
+  background: var(--deep-sky-blue);
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  width: 180px;
+  display: none;
+}  
+header ul li:hover ul{
+  display: block;
+}
+header ul li ul li{
+  width: 100%;
+}
+header ul li ul li a{
+  padding: 10px ;
+}
+header ul li a{
+  display: block;
+  padding: 20px;
+  font-size: 150%;
+  text-decoration: none;
+}
+header ul li a:hover{
+  transition: 1s;
+  background: var(--cover-blue);
+}
+header .menu-toggle{
+  display: none;
+}
+header .logo{
+  font-size: 200%;
+  margin-left: 1em;
+}

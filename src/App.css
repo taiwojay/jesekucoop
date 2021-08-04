@@ -1,0 +1,469 @@
+.App {
+  text-align: center;
+}
+.App *{
+  font-family: 'Montserrat', sans-serif;
+}
+.page{
+ min-height: 70vh;
+ position: relative;
+}
+.essay{
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(to right, var(--cover-blue), white);
+}
+.page .essay h3{
+  padding: 0.7em;
+  color: white;
+  background-color: var(--footer-dark);
+  font-style: italic;
+}
+@media screen and (max-width: 700px) {
+  .essay{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cover .cover-text h2{
+    font-size: 150%;
+  }
+  .page .essay p{
+    font-size: 80%;
+  }
+}
+:root{
+   --deep-sky-blue: #009ACD;
+   --cover-blue: #B2DFEE;
+   --footer-dark: #001B3A;
+   --main-font: 'Open Sans', sans-serif;
+   --ash-white: #f5f5f5;
+   --tomato-red: #ff6347
+}
+.nav{
+  background-color: white;
+}
+/*cover*/
+.blue3-font{
+   color: #03254c;
+}
+.cover{
+  background: var(--cover-blue);
+  min-height: 40vh;
+}
+.cover-text{
+  padding: 20px;
+}
+.cover .cover-text h2 span{
+  padding: 20px;
+}
+
+.blue3-font{
+   color: #03254c;
+}
+/*second cover*/
+.cover-text2{
+  background-color:  #03254c;
+  color: #B2DFEE;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.cover-text2 h1{
+  font-size: 450%;
+  padding: 1em;
+  text-transform: uppercase;
+} 
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 10px #fff,
+    0 0 30px #fff,
+    0 0 35px #fff,
+    0 0 35px #fff,
+    0 0 40px #fff,
+    0 0 40px #fff;
+}
+@media screen and (max-width: 700px) {
+  .cover-text2{
+    padding: 30px;
+    margin-top: 0px;
+  }
+  .cover-text2 h1{
+    font-size: 250%;
+    padding: 30px;
+  }
+}
+.fast-fade-in {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+
+/*sample animation*/
+.sample{
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: #001B3A;
+  color: white;
+  position: relative;
+  animation-name: myanime;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  border-radius: 50%;
+}
+.sub-sample{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 20%; left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+@keyframes myanime{
+  0%{
+    background-color: #001B3A;
+    left: -25%;
+    top: 0px;
+  }
+  25%{
+    background-color: var(--deep-sky-blue);
+    left: 25%;
+    transform: rotate(120deg);
+  }
+  50%{
+    background-color: white;
+    left: 50%;
+    transform: rotate(270deg);
+  }
+  100%{
+    background-color: var(--cover-blue);
+    left: 100%;
+    top: 0px;
+    transform: rotate(360deg);
+  }
+}
+
+/*cool contact us button*/
+.contact-us-btn{
+  cursor: pointer;
+  position: relative;
+  top: 50%; left: 50%;
+  margin-top: 20px;
+  transform: translate(-50%,-50%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: var(--footer-dark);
+  color: white;
+  font-size: 110%;
+  animation-name: mybuttonanimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.contact-btn-text{
+    position: absolute;
+    top: 50%; left: 50%;
+   transform: translate(-50%,-50%);
+}
+.contact-us-btn:hover{
+  background-color: var(--footer-dark);
+}
+@keyframes mybuttonanimation{
+  0%{
+    background-color: #001B3A;
+    top: 0px;
+  }
+  25%{
+    top: 5px;
+    background-color: var(--footer-dark);
+  }
+  50%{
+    top: 5px;
+  }
+  100%{
+    top: 0px;
+  }
+}
+
+/*grid-wrapper*/
+.wrapper{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 1fr;
+}
+.box-wrapper{
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+  min-height: 360px;
+}
+.box{
+  position: relative;
+  background: #f5f5f5;
+  box-shadow: 2px 4px #888888;
+  padding: 20px;
+  min-height: 280px;
+  border-radius: 10px;
+}
+.box-btn{
+   position: absolute;
+   top: 85%; left: 50%;
+   transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 350px) {
+  .box-wrapper{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  } 
+  .box-btn{
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+}
+/* what we do*/
+.what-we-do{
+  background: var(--cover-blue);
+  padding: 20px;
+}
+.action-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.action{
+  padding: 2em;
+}
+.number{
+  font-size: 300%;
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .action-grid{
+    grid-template-columns: 1fr;
+  }
+  .action{
+    padding: 1em;
+  }
+}
+/*footer*/
+footer{
+  margin-top: auto;
+  width: 100%;
+  background-color: var(--footer-dark);
+}
+.footer-content{
+  padding: 25px;
+  float: left;
+}
+.footer-content *{
+  color: white;
+}
+.footer-content .logo{
+  font-size: 200%;
+  color: white;
+}
+span a{
+  padding: 10px;
+  color: white;
+}
+.copyright{
+  color: white;
+  font-size: 80%;
+}
+
+.icon{
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.icon:hover{
+  color: black;
+}
+footer .footer-content .quick-link{
+  transition: 0.6s;
+}
+footer .footer-content .quick-link:hover{
+   font-size: 110%;
+   color: #B2DFEE;
+   text-decoration: none;
+}
+
+@media screen and (max-width: 350px){
+  footer .footer-content div{
+    font-size: 70%;
+  }
+}
+
+ /*fadein*/
+ .fade-in {
+  animation: fadeIn ease 1.5s;
+  -webkit-animation: fadeIn ease 1.5s;
+  -moz-animation: fadeIn ease 1.5s;
+  -o-animation: fadeIn ease 1.5s;
+  -ms-animation: fadeIn ease 1.5s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  /*register*/
+  .page form h3{
+    padding: 0.7em;
+  }
+  .page form{
+    background-color: #B2DFEE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 490px;
+    padding-right: 550px;
+  }
+  label{
+    font-size: 80%;
+  }
+  label input{
+    font-size: 170%;
+    border-radius: 10px;
+    border: 0.5px;
+  }
+  @media screen and (max-width: 700px) {
+    .page form{
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .page form{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    label input{
+      width: 80%;
+    }
+    .page form h3{
+      padding: 0.1em;
+    }
+  }
+  .page form button{
+    background-color: #03254c;
+    color: white;
+    border: 0.5px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 25px;
+  }
+  .page form button:hover{
+    background-color: var(--deep-sky-blue);
+    transition: 0.6s;
+  }
+  /*products page */
+  .page .products-cover-text h3{
+    background-color: #B2DFEE;
+    margin: 0px;
+    padding: 2.7em;
+  }
+  .card-content{
+   padding-left: 12em;
+   padding-right: 12em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+  }
+  .page h3{
+   padding: 0.7em;
+  }
+  @media screen and (max-width: 700px) {
+    .page .products-cover-text h3{
+      padding: 25px;
+    }
+    .cover-text h3{
+      font-size: 130%;
+      padding: 20px;
+    }
+    .page h3{
+      font-size: 140%;
+    }
+    .card-content{
+      padding: 30px;
+      font-size: 100%;
+    }
+  }
+  /*registration*/
+ .form{
+  position: absolute;
+  left: 50%;
+  top: 200%;
+  transform: translate(-50%, -50%);
+   width: 80%;
+   padding: 30px;
+   background-color: #B2DFEE;
+ }
+  /* error fonts */
+  .error{
+    font-size: 73%;
+    color: red;
+  }
+
+ 
+  
