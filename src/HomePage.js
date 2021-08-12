@@ -18,7 +18,7 @@ function contactus() {
           <div className='cover-parent'>
           <div className='cover'>
             <div className='cover-text fade-in'>
-               <h2>Let's move your finances forward Together
+               <h2>Let's move your finances forward together
                </h2>
             </div>
             <div className='sample'>
