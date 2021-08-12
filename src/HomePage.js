@@ -4,10 +4,6 @@ import {Link} from 'react-router-dom'
 
 export default function HomePage() {
 
-//   function scrollwhatwedo() {
-//     var elem = document.getElementById('what-we-do');
-//     elem.scrollIntoView();
-// }
 function contactus() {
   var elem = document.getElementById('footer');
   elem.scrollIntoView();
