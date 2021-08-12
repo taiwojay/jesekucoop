@@ -73,11 +73,11 @@ const listItems = [
        ]
    },
    {
-       text: 'The ultimate authority under the law in all the affairs of this society shall be the Annual General Meeting held mid-year and would be physical and virtual. The presence of at least one-fourth of the members will be necessary.',
+       text: 'x. The ultimate authority under the law in all the affairs of this society shall be the Annual General Meeting held mid-year and would be physical and virtual. The presence of at least one-fourth of the members will be necessary.',
        subtexts: [] 
    },
    {
-       text: 'The funds of the organization shall be composed of:',
+       text: 'xi. The funds of the organization shall be composed of:',
        subtexts: [
         '1.Savings of members',
         '2.surplus arising out of the business of the organization',
@@ -144,9 +144,13 @@ const listItems = [
 
 const mainList = listItems.map((item, i) =>
    <div key={i}>
-       <div>{item.text}</div>
-       <ul>
-           {item.subtexts}
+       <div className='item-text'>{item.text}</div>
+       <ul className='sub-texts'>
+           {item.subtexts.map((subtext, i) =>
+             <li key={i}>
+                 <div>{subtext}</div>
+                </li>
+           )}
        </ul>
    </div>
 )
@@ -156,9 +160,7 @@ export default function TermsConditions() {
             <div className='essay fade-in'>
            <h3>Terms and Conditions</h3> 
           <p> All words and expressions used in these terms and conditions defined section 2 of the cooperative societies law (cap. 35 of the laws of Oyo state of Nigeria) shall have the meaning assigned to them in the above-named section. If there shall arise any doubt regarding the meaning or intention of any of these terms and conditions, the matter shall be referred to the Registrar for a ruling.</p>
-<ul className='main-list'>
 {mainList}
-    </ul>
        </div>
         </div>
     )

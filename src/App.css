@@ -45,15 +45,19 @@
   background-color: white;
 }
 /*terms and conditions*/
-.main-list div{
-  padding: 5px;
+.terms .essay .item-text{
+  font-size: 80%;
+  font-weight: bold;
 }
-.main-list div div{
- font-size: 80%;
- font-weight: bold;
+.terms .essay .sub-texts{
+  font-size: 72%;
+  background: var(--footer-dark);
 }
-.main-list div ul{
-  font-size: 70%;
+.terms .essay .sub-texts li{
+  position: relative;
+  left: 0px;
+  list-style: none;
+   background: honeydew;
 }
 .terms .essay p{
   font-size: 80%;
