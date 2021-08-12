@@ -57,26 +57,6 @@ function contactus() {
     <div className='contact-us-btn' onClick={()=>contactus()}>
      <div className='contact-btn-text'>Contact Us</div>
     </div>
-
-    <div className='what-we-do' id='what-we-do'>
-     <h3 className='blue3-font'>What We Do</h3>
-     <div className='action-grid'>
-       <div className='action blue3-font'>
-       <span className='number'>1.</span>Organize trainings for Entrepreneurs on financial management and business 
-       </div>
-       <div className='action blue3-font'>
-       <span className='number'>2.</span> Equip members with information needed to apply for loan facilities
-       </div>
-       <div className='action blue3-font'>
-       <span className='number'>3.</span> Formulate direct or indirect  mechanisms to monitor members' business performances; to check on their level of productivity
-       </div>
-       <div className='action blue3-font'> 
-       <span className='number'>4.</span> Establish business ventures and create job opportunities for members
-       </div>
-       <div>
-       </div>
-     </div>
-    </div>
    </div>
     )
 }

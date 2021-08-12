@@ -281,31 +281,6 @@
     grid-template-columns: 1fr;
   }
 }
-/* what we do*/
-.what-we-do{
-  background: var(--cover-blue);
-  padding: 20px;
-}
-.action-grid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.action{
-  padding: 2em;
-}
-.number{
-  font-size: 300%;
-  height: 100%;
-}
-
-@media screen and (max-width: 700px) {
-  .action-grid{
-    grid-template-columns: 1fr;
-  }
-  .action{
-    padding: 1em;
-  }
-}
 /*footer*/
 footer{
   margin-top: auto;
