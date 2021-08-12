@@ -44,6 +44,20 @@
 .nav{
   background-color: white;
 }
+/*terms and conditions*/
+.main-list div{
+  padding: 5px;
+}
+.main-list div div{
+ font-size: 80%;
+ font-weight: bold;
+}
+.main-list div ul{
+  font-size: 70%;
+}
+.terms .essay p{
+  font-size: 80%;
+}
 /*cover*/
 .blue3-font{
    color: #03254c;
@@ -459,11 +473,74 @@ footer .footer-content .quick-link:hover{
    padding: 30px;
    background-color: #B2DFEE;
  }
+ form p{
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
   /* error fonts */
   .error{
     font-size: 73%;
     color: red;
   }
 
- 
+  /*formik form*/
+  .input-row{
+    padding: 3px;
+  }
+  input{
+     border: 0;
+     outline: 0;
+     border-bottom: 0.6px solid var(--footer-dark);
+     transition: 0.7s;
+     width: 70%;
+     padding: 3px;
+  }
+  input:hover{
+     border-bottom: 1.5px solid var(--deep-sky-blue);
+  }
+  .has-error{
+     border: 0;
+     outline: 0;
+     border-bottom: 0.6px solid red;
+  }
+  .feedback{
+    font-size: 60%;
+    font-style: italic;
+  }
+  .invalid{
+    color: red;
+  }
+  .valid{
+    color: var(--deep-sky-blue);
+  }
+  form .input-row button{
+    background-color: #03254c;
+    color: white;
+    border: 0.5px;
+    padding: 10px;
+    width: 25%;
+    border-radius: 25px;
+  }
+  form .input-row button:hover{
+    background-color: var(--deep-sky-blue);
+    transition: 0.6s;
+  }
+  .que-text{
+    font-size: 65%;
+    padding: 0;
+  }
+  @media screen and (max-width: 600px){
+    input{
+      width: 85%;
+      font-size: 90%;
+    }
+    form .input-row button{
+      width: 50%;
+    }
+  }
+
+
+
+
+  
   

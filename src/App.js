@@ -8,7 +8,8 @@ import HomePage from './HomePage'
 import AboutUs from './AboutUs'
 import Products from './Products'
 import ScrollToTop from './components/ScrollToTop'
-import Register from './Register'
+import FormikForm from './FormikForm'
+import TermsConditions from './TermsConditions'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
     <Route path='/' exact component={HomePage}/>
       <Route path='/about-us' exact component={AboutUs} />
       <Route path='/products&services' exact component={Products} />
-      <Route path='/register' exact component={Register} />
+      <Route path='/register' exact component={FormikForm} />
+      <Route path='/terms&conditions' exact component={TermsConditions} />
       </Switch>
     <Footer />
     </div>

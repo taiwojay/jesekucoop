@@ -18,6 +18,8 @@ export default function Navigation() {
       <Nav.Link as={Link} to ='/about-us'>About Us</Nav.Link>
       <Nav.Link as={Link} to ='/products&services'>Products & Services</Nav.Link>
       <Nav.Link  as={Link} to ='/register'>Register<span><FontAwesomeIcon icon={faUser} className='icon' /></span></Nav.Link>
+      <Nav.Link as={Link} to ='/terms&conditions'>Terms & Conditions</Nav.Link>
+      
     </Nav>
   </Navbar.Collapse>
 </Navbar>

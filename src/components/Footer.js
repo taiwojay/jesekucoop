@@ -35,6 +35,9 @@ export default function Footer() {
         </div>
         <div className='copyright'>© 2021 Jẹsẹ́kù Cooperative</div>
         <a href='https://github.com/taiwojay' className='copyright'>https://github.com/taiwojay</a>
+        <Link to='/terms&conditions' >
+          <p className='copyright'>Terms and Conditons</p>
+        </Link>
     </footer> 
     
     )
