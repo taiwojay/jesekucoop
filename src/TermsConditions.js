@@ -90,9 +90,7 @@ const listItems = [
    },
    {
        text: 'xiv. Shares are not unconditionally withdrawable; but if at the end of the financial year the organization’s financial situation is favorable, the administrative department may repay to any member whose membership has been terminated during the year a sum not exceeding the amount paid by him on account of shares. Provided that not more than five percent of the total paid up share capital shall be thus paid out in any one year.',
-       subtexts: [
-
-       ]
+       subtexts: []
    },
    {
      text: 'xv. Shares shall be paid up in not more than 12 instalments. Any member may pay up the full value in advance at any time. Members not paying their instalments by due date may be fined.',
@@ -114,20 +112,52 @@ const listItems = [
    {
      text: 'xviii. Use and Custody of Funds',
      subtexts:[
-        ' a. The funds of the society may be held in the form of:',
-         'b. Such of the funds of the society as are not required for current use may be invested in any'
+        `a. The funds of the society may be held in the form of:
+          a reserve fund,
+          a depreciation fund,
+          an insurance fund,
+          a development, education or other approved fund,
+          current or savings bank accounts or cash
+        ` ,
+         'b. Such of the funds of the society as are not required for current use may be invested in any manner permitted by the laws and regulations guiding cooperatives.'
       ]
    },
    {
        text: 'xix. Loans',
        subtexts: [
-           ' a. Loans  may be granted to members only for purposes which in the opinion of the administrative department are necessary and in the best interest of the borrower. '
+           ' a. Loans  may be granted to members only for purposes which in the opinion of the administrative department are necessary and in the best interest of the borrower. ',
+           `b. No loans shall be granted to:
+             1.any individual other than a member of the society
+             2.any member whose instalments of shares are in arears
+             3.any member who has not made thrift savings`,
+           `c. Except in the first year of a society no loans shall be made to a member within a month of his admission.`,
+           `d. No loans shall be granted:
+              1.if it would bring a member’s total indebtedness at the time of the loan to an amount exceeding his maximum credit limit.
+              2.unless all requirements for loan eligibility have been met`,
+           ` e. The maximum credit limit of each applicant for a loan shall be fixed by the organization bearing in mind the availability of funds, the principle of making credit available to as many members as are qualified.`,
+           ` f.  Interests on loans to members shall be charged at a flat rate of 1.5%. In the case of default in repayment penal interest shall be charged at twice the normal rate.`,
+           ` g. Every borrower shall execute a bond and shall furnish two sureties. No extension of repayment shall be granted without the consent of the sureties.`,
+           ` h. A surety must be a reputable member of the organization and shall personally guarantee:
+                   1.repayment of the loan if the borrower defaults
+                   2.the correctness of the particulars on which the value of the borrower security is based.
+                   3.a member’s commitments as surety shall not when taken together with his own existing Borrowing exceed his maximum credit limit`,
+           `i. All loans shall be issued subject to the right of the organization to call for immediate repayment if:
+  1.any misapplication is proved  2.the borrower gives an indication of resignation`,
+           `j. No member shall borrow from any other source other than the society without the permission of
+                     the organization.`,
+           ` k.  When a member from who money is due makes any payment to the society it shall be appropriated in the following order: firstly, to share payment, fines and other miscellaneous charges due by him. Secondly to interest on loan and thirdly to loan principal.`
        ]
    },
    {
      text: 'xx. Disposal of Surplus',
      subtexts: [
-         ' a. At the close of each financial year the society’s expenses including the interest payable on deposits and loans from non-members and audit supervision fees due shall be deducted from the organization’s income. The net surplus shall be carried to the reserve fund.'
+         ' a. At the close of each financial year the society’s expenses including the interest payable on deposits and loans from non-members and audit supervision fees due shall be deducted from the organization’s income. The net surplus shall be carried to the reserve fund.',
+         `b. The balance shall be utilized for one or more of the following purposes:
+         1.payment of a dividend on share  2.payment of bonus to members as a refund of a percentage of  interest paid on loans during the year provided that a share dividend of not less than 3% has been declared.
+         3.donation not exceeding 10% of the net surplus to any charitable or social purpose
+         4.building up a general reserve.
+         5.institution of a share tranfer fund.`,
+         ` c. The dividend paid on shares shall not exceed 5% and no dividend shall be paid if any overdue claim to a depositor or lender remains unsatisfied.`
      ] 
    },
    {

@@ -5,7 +5,7 @@ export default function AboutUs() {
         <div className='page'>
           <div className='essay fade-in'>
           <h3>About Us</h3>
-          <p>JESEKU is an autonomous association of persons unified voluntarily to meet their common economic,social and cultural needs and aspirations through a jointly owned and democratically controlled enterprise.</p>
+          <p>JESEKU is an autonomous association of persons unified voluntarily to meet their common economic, social and cultural needs and aspirations through a jointly owned and democratically controlled enterprise.</p>
         
           <p>Over the years, many small and medium scale enterprises have been faced with financial instability which has resulted to stunted growth and/or business shutdown.
           Jeseku was created with the ultimate goal of helping these enterprises; both low and medium income earners achieve a desirable level of financial stability.</p>
