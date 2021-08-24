@@ -65,7 +65,7 @@ export default function FormikForm() {
                     setSubmitting(true);
 
                     setTimeout(() => {
-                        console.log(values)
+                        alert('Your info has been collected!')
                         firebase
                         .firestore()
                         .collection('users')
