@@ -34,7 +34,6 @@ export default function Footer() {
            <a href='https://twitter.com/jesekucoop'><FontAwesomeIcon icon={faTwitterSquare} size='2x' className='icon'/></a>
         </div>
         <div className='copyright'>© 2021 Jẹsẹ́kù Cooperative</div>
-        <a href='https://github.com/taiwojay' className='copyright'>https://github.com/taiwojay</a>
         <Link to='/terms&conditions' >
           <p className='copyright'>Terms and Conditons</p>
         </Link>

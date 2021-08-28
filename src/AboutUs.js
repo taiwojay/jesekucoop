@@ -10,7 +10,7 @@ export default function AboutUs() {
           <p>Over the years, many small and medium scale enterprises have been faced with financial instability which has resulted to stunted growth and/or business shutdown.
           Jeseku was created with the ultimate goal of helping these enterprises; both low and medium income earners achieve a desirable level of financial stability.</p>
      
-          <p>JESEKU is a registered limited liability and multi-purpose savings and credit cooperative network run on a digital platform for convenient and easy use. Jeseku which was established in 2020 was borne out of the quest to establish startup businesses and render financial assistance to entrepreneurs and gainfully employed individuals by creating smooth access to loan facilities with no collateral and little or no bureaucracy.</p>
+          <p>JESEKU is a registered limited liability and multi-purpose savings and credit cooperative network run on a digital platform for convenient and easy use. Jeseku which was established in 2021 was borne out of the quest to establish startup businesses and render financial assistance to entrepreneurs and gainfully employed individuals by creating smooth access to loan facilities with no collateral and little or no bureaucracy.</p>
     
           <p>At Jeseku, we believe that SMEs can achieve their entrepreneurial dreams through collaborative efforts. We are committed to building a platform both online and offline where like-minds can come together and bring big dreams to life.We assist in bridging the gap between their abilities and their future.</p>
          

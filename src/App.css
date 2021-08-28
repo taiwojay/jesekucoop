@@ -492,15 +492,16 @@ footer .footer-content .quick-link:hover{
   .valid{
     color: var(--deep-sky-blue);
   }
-  form .input-row button{
+ a button{
     background-color: #03254c;
     color: white;
     border: 0.5px;
-    padding: 10px;
-    width: 25%;
-    border-radius: 25px;
+    padding:20px;
+    width: 100%;
+    border-radius: 0px;
+    font-size: 130%;
   }
-  form .input-row button:hover{
+  a button:hover{
     background-color: var(--deep-sky-blue);
     transition: 0.6s;
   }
@@ -508,16 +509,55 @@ footer .footer-content .quick-link:hover{
     font-size: 65%;
     padding: 0;
   }
-  @media screen and (max-width: 600px){
-    input{
-      width: 85%;
-      font-size: 90%;
-    }
-    form .input-row button{
-      width: 50%;
-    }
-  }
 
+ .icons{
+   padding-top: 30px;
+   padding-bottom: 30px;
+ }
+ .icons .text{
+   font-size: 130%;
+ }
+ .whatsapp-link{
+   background-color:#29D967 ;
+   padding: 10px;
+   color: white;
+   border-radius: 50px;
+   transition: 0.5s;
+ }
+ .whatsapp-link:hover{
+   padding: 12px;
+   font-size: 105%;
+ }
+ @media screen and (max-width: 400px) {
+   .icons .text{
+     font-size: 110%;
+   }
+   .whatsapp-link{
+     padding: 6px;
+   }
+   .whatsapp-link:hover{
+     padding: 7px;
+   }
+ }
+  .whatsapp-anchor{
+    color: #29D967;
+    transition: 0.5s;
+  }
+ .ig-anchor{
+   color:  #D92567;
+ }
+ .fb-anchor{
+   color: #3F61A6;
+ }
+ .twitter-anchor{
+   color: #05AFF2;
+ }
+ .a{
+   padding: 15px;
+ }
+  a{
+    text-decoration: none !important;
+  }
 
 
 

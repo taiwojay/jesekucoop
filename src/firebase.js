@@ -1,8 +1,7 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-
+import 'firebase/analytics'
   // Your web app's Firebase configuration
-
   var firebaseConfig = {
     apiKey: "AIzaSyDpAhPpl2JG4mNRC-7fU3TZVaVJJR32s0w",
     authDomain: "jeseku-422cd.firebaseapp.com",
@@ -13,6 +12,6 @@ import 'firebase/firestore'
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-
+  firebase.analytics();
 
 export default firebase

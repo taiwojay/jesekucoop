@@ -3,6 +3,8 @@ import {Formik} from 'formik'
 import * as Yup from 'yup'
 import firebase from './firebase'
 
+firebase.firestore().collection('users0').add({name: 'john'})
+
 const validationSchema = Yup.object().shape({
    name: Yup.string()
    .min(1, 'Must have a character')

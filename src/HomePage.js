@@ -32,7 +32,7 @@ function contactus() {
     <div className='box-wrapper'>
     <div className='box'>
       <h3>Welcome</h3>
-      <div>Welcome the Jẹsẹ́kù website. Learn more about us</div>
+      <div>Welcome to the Jẹsẹ́kù website. Learn more about us</div>
       <Button variant="primary" className='box-btn' as={Link} to='/about-us'>Learn More</Button>
     </div>
     </div>
@@ -49,7 +49,7 @@ function contactus() {
     <div className='box'>
     <h3>Join Us</h3>
       <div>Provide us with some of your information so we can know more about you</div>
-      <Button variant="primary" className='box-btn' as={Link} to='./register'>Fill Form</Button>
+      <Button variant="primary" className='box-btn'  as={Link} to='./register'>Fill Form</Button>
     </div>
     </div>
     </div>
