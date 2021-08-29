@@ -25,7 +25,7 @@ function contactus() {
       <header>
    <img src="https://images.unsplash.com/photo-1605896163420-830698e44fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80" alt="Five developers at work." />
    <section className='hero-header-text'>
-      <h1 className='jeseku-fade-in'>Jeseku</h1>
+      <h1 className='jeseku-fade-in jeseku-font'>Jẹsẹ́kù</h1>
       <div className='typewriter'>
       <h2>A new digital cooperative platform</h2>
       </div>

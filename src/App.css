@@ -147,7 +147,10 @@ header section h1{
     padding-top: 60px;
   }
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+.jeseku-font{
+  font-family: 'Merriweather Sans', sans-serif;
+}
 .jeseku-fade-in {
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
