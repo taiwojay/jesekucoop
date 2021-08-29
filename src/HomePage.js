@@ -22,12 +22,15 @@ function contactus() {
           </div>
            </div>
           </div>
-      
-      <div className='cover-text2'>
-        <h1 className='neon fast-fade-in'>Jẹsẹ́kù</h1>
-        <h3 className='fade-in'>A new financial cooperative platform coming to you <span className='neon'>soon</span></h3>
+      <header>
+   <img src="https://images.unsplash.com/photo-1605896163420-830698e44fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80" alt="Five developers at work." />
+   <section className='hero-header-text'>
+      <h1 className='jeseku-fade-in'>Jeseku</h1>
+      <div className='typewriter'>
+      <h2>A new digital cooperative platform</h2>
       </div>
-         
+   </section>
+  </header>
     <div className='wrapper'>
     <div className='box-wrapper'>
     <div className='box'>
